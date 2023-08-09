@@ -5,7 +5,7 @@ import android.os.Bundle
 import com.example.myapplication.databinding.ActivityDatailBinding
 
 class DatailActivity : AppCompatActivity() {
-    private var binging: ActivityDatailBinding
+    private lateinit var binging: ActivityDatailBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
